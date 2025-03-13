@@ -1,0 +1,8 @@
+# Message for when you score a hole
+scoreMsg: '&4&v1 &6scored a par of &c&v2&6.'
+powerMeterMultiplier: 3
+
+blocks-slab:
+  STONE_SLAB: 0.5
+  COBBLESTONE_SLAB: 1.5
+  QUARTZ_SLAB: 0.4

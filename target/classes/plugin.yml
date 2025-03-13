@@ -1,0 +1,18 @@
+name: MiniGolf
+version: '1.0-SNAPSHOT'
+main: com.holiday.minigolf.Main
+api-version: '1.19'
+depend: [ShortUtils]
+softdepend: [CraftLib]
+
+commands:
+  minigolf:
+    description: Mini golf
+    default: true
+    usage: "Usage: /minigolf [info|reload|giveItem]"
+    aliases: [golf]
+
+permissions:
+  minigolf.reload:
+    default: op
+    description: Allows you to reload the config
